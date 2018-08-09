@@ -5,6 +5,7 @@
     <title>BBI</title>
     <link rel="stylesheet" href="Fonts/stylesheet.css">
     <link rel="stylesheet" href="Fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
@@ -28,7 +29,7 @@
             </div>
             <!--НАВИГАЦИЯ-->
             <div class="navigation">
-                <ul>
+                <ul class="menu">
                     <li><a href="#">Главная</a></li>
                     <li><a href="#">Новости</a></li>
                     <li><a href="#">Маркетинг</a></li>
@@ -150,11 +151,11 @@
             <div class="myTarifs">
                 <span>калькулятор прибыли</span>
                 <span>рассичитайте свою прибыль</span>
-                <div>
+                <div class="chooseLine">
                     <span>Выберите линию:</span>
                     <div></div>
                 </div>
-                <div>
+                <div class="chooseBot">
                     <span>Выберите бота:</span>
                     <div></div>
                 </div>
@@ -168,46 +169,54 @@
                 <span>Ваша прибыль:</span>
                 <div></div>
             </div>
-            <a href="#"><span>Подключится</span></a>
+            <a href="#" class="connect"><span>Подключится</span></a>
         </div>
         <!--Информация о BBI-->
         <div class="about">
             <span>BUSINESS BOT INCUBATOR</span>
             <span>МИР ИННОВАЦИОННЫХ ТЕХНОЛОГИЙ!</span>
-            <p>Инновационные идеи и технологии давно и прочно вошли в жизнь пользователей Интернет. Business Bot Incubator (BBI) был создан в соответствии с современными тенденциями. Это новый этап в мире инвестиций. Каждый сомневающийся в своих решениях человек может сделать неверный выбор. Но что, если вместо человека будет принимать решения робот, работающий в рамках точного алгоритма?
+            <div class="aboutLeft">
+                <p>Инновационные идеи и технологии давно и прочно вошли в жизнь пользователей Интернет. Business Bot Incubator (BBI) был создан в соответствии с современными тенденциями. Это новый этап в мире инвестиций. Каждый сомневающийся в своих решениях человек может сделать неверный выбор. Но что, если вместо человека будет принимать решения робот, работающий в рамках точного алгоритма?
                 Эта система облегчит жизнь многих инвесторов. </p>
-            <p>Эта система облегчит жизнь многих инвесторов. Программные боты будут обеспечивать абсолютную безопасность проведения платежей и полную защиту средств, размещенных на балансе Вашего аккаунта! Основная задача наших разработчиков – дальнейшее развитие BBI-ботов. Только взаимный успех принесет новое всеобщее развитие и процветание.</p>
-            <img src="" alt="license">
+            </div>
+            <div class="aboutRight">
+                <p>Эта система облегчит жизнь многих инвесторов. Программные боты будут обеспечивать абсолютную безопасность проведения платежей и полную защиту средств, размещенных на балансе Вашего аккаунта! Основная задача наших разработчиков – дальнейшее развитие BBI-ботов. Только взаимный успех принесет новое всеобщее развитие и процветание.</p>
+            </div>
+            <div class="license">
+                <img src="" alt="license">
+            </div>
         </div>
         <!--Приемущества BBI-->
         <div class="advantages">
             <img src="" alt="background">
-            <span>преимущества компании</span>
-            <span>почему выбирают нас?</span>
-            <span>Инвестиции в BBI выгодно отличаются от интернет-инвестиций в другие программы. </span>
-            <span>Здесь о Ваших средствах заботятся и грамотно ими управляют уникальные BBI-боты. Каждый BBI-бот оснащен бонусным апгрейдом, который способствует увеличению получаемой прибыли!</span>
+            <div class="advTitle">
+                <span>преимущества компании</span>
+                <span>почему выбирают нас?</span>
+                <span>Инвестиции в BBI выгодно отличаются от интернет-инвестиций в другие программы. </span>
+                <span>Здесь о Ваших средствах заботятся и грамотно ими управляют уникальные BBI-боты. Каждый BBI-бот оснащен бонусным апгрейдом, который способствует увеличению получаемой прибыли!</span>
+            </div>
             <!--блоки с картинками приемуществ-->
-            <div>
+            <div class="advIcon">
                 <span>УНИКАЛЬНЫЕ ИНВЕСТИЦИОННЫЕ БОТЫ</span>
                 <img src="" alt="icon">
             </div>
-            <div>
+            <div class="advIcon">
                 <span>ПАРТНЕРСКАЯ ПРОГРАММА ДО 10%</span>
                 <img src="" alt="icon">
             </div>
-            <div>
+            <div class="advIcon">
                 <span>НАЧИСЛЕНИЯ КАЖДЫЕ 24 ЧАСА</span>
                 <img src="" alt="icon">
             </div>
-            <div>
+            <div class="advIcon">
                 <span>КВАЛИФИЦИРОВАННАЯ ПОДДЕРЖКА</span>
                 <img src="" alt="icon">
             </div>
-            <div>
+            <div class="advIcon">
                 <span>ВЫВОД СРЕДСТВ В РЕЖИМЕ ИНСТАНТ</span>
                 <img src="" alt="icon">
             </div>
-            <div>
+            <div class="advIcon">
                 <span>ВОЗМОЖНОСТЬ УВЕЛИЧЕНИЯ ПРИБЫЛИ</span>
                 <img src="" alt="icon">
             </div>
@@ -218,20 +227,20 @@
         <div class="program">
             <div class="plan">
                 <span>Партнерская программа</span>
-                <div>
+                <div class="percent">
                     <span>Размер реферальных начислений на начальном этапе составляет </span>
                     <span>5%</span>
                     <span>от вклада вашего партнера.</span>
                 </div>
-                <div>
+                <div class="percent">
                     <span>Для тех, кто сделает оборот структуры свыше 500$, BBI-боты сгенерируют повышенный процент и увеличат размер начислений на</span>
                     <span>1% </span>
                 </div>
-                <div>
+                <div class="percent">
                     <span>Каждые последующие 500$ будут увеличивать Ваш партнерский процент начислений на 1%, максимальная отметка достигает </span>
                     <span>10%</span>
                 </div>
-                <a href="#"><span>Подключится</span></a>
+                <a href="#" class="connect"><span>Подключится</span></a>
             </div>
         </div>
     </div>
@@ -272,7 +281,7 @@
             </div>
         </div>
         <div class="partners">
-            <ul>
+            <ul class="payments">
                 <li>
                     <a href="#">
                         <img src="" alt="icon">
@@ -300,15 +309,14 @@
 <footer>
     <div class="container">
         <!--Кнопка отдельно в контейнере-->
-        <a href="#"><span>Подключится</span></a>
+        <a href="#" class="connect"><span>Подключится</span></a>
         <!--футер разбиваю на 2 части-->
         <div class="footerTop">
-            <div>
-                <div>
+                <div class="contactInfo">
                     <img src="">
                     <p>Copyright © 2016 - BUSINESS BOT INCUBATOR - Мир инновационных технологий.</p>
                 </div>
-                <div>
+                <div class="contactInfo">
                     <span><img src="">Address:</span>
                     <p>
                         137, Wilbraham Road Manchester
@@ -317,7 +325,7 @@
                         Registered in UNITED KINGDOM
                         Number 10416054</p>
                 </div>
-                <div>
+                <div class="contactInfo">
                     <span><img src="">Support team: </span>
                     <span>@Business_Bot_Incubator</span>
                     <span><img src="">E-mail:</span>
@@ -325,7 +333,7 @@
                     <span><img src="">vkontakte:</span>
                     <span>business_bot_incubator</span>
                 </div>
-                <div>
+                <div class="contactInfo">
                     <span><img src="">BBI chat RUS:</span>
                     <span>telegram_bbi_chat_rus</span>
                     <span><img src="">BBI chat ENG: </span>
@@ -333,7 +341,6 @@
                     <span><img src="">BBI chat Хинди (हिन्दी चैट):</span>
                     <span>telegram_bbi_chat_eng</span>
                 </div>
-            </div>
         </div>
         <!--вторая часть футера-->
         <div class="footerBottom">

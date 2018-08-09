@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="Fonts/stylesheet.css">
     <link rel="stylesheet" href="Fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
@@ -12,7 +13,7 @@
     она не входит в контейнер,
     т.к выходит за его границы-->
     <div class="banner">
-        <img src="" alt="background">
+
     </div>
     <!--контейнер для хэдера-->
     <div class="container">
@@ -28,11 +29,11 @@
             </div>
             <!--НАВИГАЦИЯ-->
             <div class="navigation">
-                <ul>
-                    <li><a href="#">ГЛАВНАЯ</a></li>
-                    <li><a href="#">НОВОСТИ</a></li>
-                    <li><a href="#">МАРКЕТИНГ</a></li>
-                    <li><a href="#">ПАРТНЕРАМ</a></li>
+                <ul class="menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Маркетинг</a></li>
+                    <li><a href="#">Партнерам</a></li>
                     <li><a href="#">FAQ</a></li>
                 </ul>
             </div>
@@ -44,13 +45,28 @@
                         <option value="ru">ru</option>
                     </select>
                 </div>
-                <a href="#"><img src="" alt="icon">подключиться</a>
+                <a href="#"><span>Подключится</span></a>
             </div>
+        </div>
+        <!--центральная чатсть контейнера хэдера-->
+        <div class="headerCenter">
+            <span>BBI</span>
+            <h1>Мир инновационных технологий</h1>
+            <a href="#"><span>Подключится</span></a>
         </div>
         <!--нижняя часть контейнера хэдера-->
         <div class="headerBottom">
             <a href="#">
-                <span>маркетинг</span>
+                <span>линия</span>
+                <span>прибыли</span>
+            </a>
+            <a href="#">
+                <span>линия</span>
+                <span>стабильности</span>
+            </a>
+            <a href="#">
+                <span>линия</span>
+                <span>бесконености</span>
             </a>
         </div>
     </div>
@@ -162,39 +178,37 @@
 <footer>
     <div class="container">
         <!--Кнопка отдельно в контейнере-->
-        <a href="#"><img src="">Подключится</a>
+        <a href="#" class="connect"><span>Подключится</span></a>
         <!--футер разбиваю на 2 части-->
         <div class="footerTop">
-            <div>
-                <div>
-                    <img src="">
-                    <p>Copyright © 2016 - BUSINESS BOT INCUBATOR - Мир инновационных технологий.</p>
-                </div>
-                <div>
-                    <span><img src="">Address:</span>
-                    <p>
-                        137, Wilbraham Road Manchester
-                        M14 7DS
-                        UNITED KINGDOM
-                        Registered in UNITED KINGDOM
-                        Number 10416054</p>
-                </div>
-                <div>
-                    <span><img src="">Support team: </span>
-                    <span>@Business_Bot_Incubator</span>
-                    <span><img src="">E-mail:</span>
-                    <span>support@bbi.world</span>
-                    <span><img src="">vkontakte:</span>
-                    <span>business_bot_incubator</span>
-                </div>
-                <div>
-                    <span><img src="">BBI chat RUS:</span>
-                    <span>telegram_bbi_chat_rus</span>
-                    <span><img src="">BBI chat ENG: </span>
-                    <span>telegram_bbi_chat_eng</span>
-                    <span><img src="">BBI chat Хинди (हिन्दी चैट):</span>
-                    <span>telegram_bbi_chat_eng</span>
-                </div>
+            <div class="contactInfo">
+                <img src="">
+                <p>Copyright © 2016 - BUSINESS BOT INCUBATOR - Мир инновационных технологий.</p>
+            </div>
+            <div class="contactInfo">
+                <span><img src="">Address:</span>
+                <p>
+                    137, Wilbraham Road Manchester
+                    M14 7DS
+                    UNITED KINGDOM
+                    Registered in UNITED KINGDOM
+                    Number 10416054</p>
+            </div>
+            <div class="contactInfo">
+                <span><img src="">Support team: </span>
+                <span>@Business_Bot_Incubator</span>
+                <span><img src="">E-mail:</span>
+                <span>support@bbi.world</span>
+                <span><img src="">vkontakte:</span>
+                <span>business_bot_incubator</span>
+            </div>
+            <div class="contactInfo">
+                <span><img src="">BBI chat RUS:</span>
+                <span>telegram_bbi_chat_rus</span>
+                <span><img src="">BBI chat ENG: </span>
+                <span>telegram_bbi_chat_eng</span>
+                <span><img src="">BBI chat Хинди (हिन्दी चैट):</span>
+                <span>telegram_bbi_chat_eng</span>
             </div>
         </div>
         <!--вторая часть футера-->
