@@ -4,7 +4,7 @@
 
 body {
     margin: 0 auto;
-    font-family: "Open Sans";
+    font-family: "Geometria";
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -21,4 +21,429 @@ ul {
     width: 1010px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+header .headerBackground {
+    width: 1920px;
+    height: 1040px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*СТИЛИ ДЛЯ НАДПИСИ ОКОЛО ЛОГОТИПА*/
+.headerTop .abbreviation ul li:first-child {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #6981f1;
+}
+
+.headerTop .abbreviation ul li:nth-child(2) {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #b998ef;
+}
+
+.headerTop .abbreviation ul li:last-child {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #49d5fe;
+}
+
+/*СТИЛИ ДЛЯ МЕНЮ*/
+.headerTop .navigation .menu li a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*СТИЛИ ДЛЯ КНОПКИ ПОДКЛЮЧИТСЯ В ШАПКE СВЕРХУ СПРАВА*/
+header .headerTop .right a {
+    text-decoration: none;
+    border: 1px solid #49d5fe;
+}
+
+header .headerTop .right span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #49d5fe;
+}
+
+/*СТИЛИ ДЛЯ ЦЕНТРАЛЬНОЙ ЧАСТИ ХЭДЕРА*/
+header .container .headerCenter .bbi span:first-child {
+    font-size: 120px;
+    color: #6981f1;
+    font-weight: 900;
+}
+
+header .container .headerCenter .bbi span:nth-child(2) {
+    font-size: 120px;
+    color: #b998ef;
+    font-weight: 900;
+}
+
+header .container .headerCenter .bbi .lastLetter {
+    font-size: 120px;
+    color: #49d5fe;
+    font-weight: 900;
+}
+
+header .container .headerCenter h1 {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*СТИЛИ ДЛЯ КНОПКИ ПОДКЛЮЧИТСЯ В ШАПКE ПО ЦЕНТРУ*/
+
+header .headerCenter a {
+    text-decoration: none;
+    border: 2px solid #49d5fe;
+}
+
+header .headerCenter span.icon-paper-plane {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #49d5fe;
+}
+
+/*СТИЛИ ДЛЯ НИЗА ХЕДЕРА*/
+header .headerBottom a span:nth-child(odd) {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+header .headerBottom a span:nth-child(even) {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+header .headerBottom a:nth-child(odd) {
+    text-decoration: none;
+}
+
+header .headerBottom a:nth-child(even) {
+    text-decoration: none;
+}
+
+/*СТИЛИ ДЛЯ БЛОКА С КАРТОЧКАМИ*/
+
+/*НАЗВАНИЕ КАРТОЧКИ*/
+.container .content .cards .tariffCard1 .testCard span {
+    font-size: 17px;
+    color: #6e87fa;
+    text-transform: uppercase;
+}
+
+.container .content .cards .tariffCard2 .powerCard span {
+    font-size: 17px;
+    color: #858eff;
+    text-transform: uppercase;
+}
+
+.container .content .cards .tariffCard3 .ultimatumCard span {
+    font-size: 17px;
+    color: #af82f6;
+    text-transform: uppercase;
+}
+
+.container .content .cards .tariffCard4 .bitCard span {
+    font-size: 17px;
+    color: #4fceff;
+    text-transform: uppercase;
+}
+
+/*ОСТАЛЬНАЯ ЧАСТЬ КАРТОЧКИ*/
+
+.container .content .cards .cardInfo span:first-child {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: bold;
+    color: #1f2847;
+}
+
+.container .content .cards .cardInfo span:last-child {
+    font-family: Roboto;
+    color: #1f2847;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container .content .cards .cardWrap span {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #1f2847;
+}
+
+.container .content .cards .cardWrap .cardConnect span {
+    color: #5a6fcf;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.container .content .cards .cardWrap .cardConnect a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #637ae2;
+    text-transform: uppercase;
+}
+
+.container .calc .myTarifs span:first-child {
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.container .calc .myTarifs span:last-child {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.container .calc .myTarifs .chooseLine span {
+    font-size: 17px;
+    font-weight: lighter;
+    text-transform: none;
+    font-family: "Roboto";
+}
+
+.container .calc .myTarifs .chooseBot span {
+    font-size: 17px;
+    font-weight: lighter;
+    text-transform: none;
+    font-family: "Roboto";
+}
+
+.container .calc .calcDep span {
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.container .about span:first-child {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.container .about span:last-child {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.container .about .aboutLeft p {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #1f2847;
+    font-weight: lighter;
+}
+
+.container .about .aboutLeft p span {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #1f2847;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.container .about .aboutRight p {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #1f2847;
+    font-weight: lighter;
+}
+
+.container .about .aboutRight p span {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #1f2847;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.container .advantages .advTitle span:first-child {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.container .advantages .advTitle span:nth-child(2) {
+    font-family: "Roboto";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.container .advantages .advTitle span:nth-child(3) {
+    font-family: "Roboto";
+    font-size: 21px;
+    color: #1f2847;
+    font-weight: normal;
+}
+
+.container .advantages .advTitle span:last-child {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: #1f2847;
+    font-weight: lighter;
+}
+
+.container .advantages .advIcon span {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    color: #1f2847;
+}
+
+.container .program .plan span {
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.container .program .plan .percent span {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.container .program .plan .percent span.percentNumber {
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container .program .plan a.connect {
+    text-decoration: none;
+}
+
+.container .program .plan span {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.container .news span {
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1f2847;
+}
+
+.container .news span:nth-child(2) {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1f2847;
+}
+
+.container .news .articles .articlesBanner span:first-child {
+    font-family: "Roboto";
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.container .news .articles .articlesBanner p {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #ced9e1;
+    font-weight: normal;
+}
+
+.container .news .articles .articlesBanner span:last-child {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: #ced9e1;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.partners {
+    width: 1920px;
+    height: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer .container .footerTop .contactInfo .abbreviation ul li:first-child {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #6981f1;
+}
+
+footer .container .footerTop .contactInfo .abbreviation ul li:nth-child(2) {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #b998ef;
+}
+
+footer .container .footerTop .contactInfo .abbreviation ul li:last-child {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #49d5fe;
+}
+
+footer .container .footerTop .contactInfo p {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-transform: none;
+    color: #bbc0d2;
+}
+
+footer .container .footerTop .contactInfo span {
+    font-family: "Roboto";
+    text-transform: uppercase;
+    color: #6981f1;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer .container .contactInfo span {
+    font-family: "Roboto";
+    font-size: 15px;
+    text-transform: none;
+    color: #bbc0d2;
+}
+
+.footerTop .contactInfo2 span {
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #b998ef;
+}
+
+.footerTop .contactInfo3 span {
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #49d5fe;
+}
+
+.footerTop a {
+    font-family: "Roboto";
+    text-decoration: none;
+    font-size: 15px;
+    color: #bbc0d2;
+}
+
+.footerBottom a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #bbc0d2;
 }
