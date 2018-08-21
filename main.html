@@ -8,18 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="headerBackground" style="background-image: url(img/jpg/backgroundHeader.jpg)">
-    <!--фоновая картинка для хэдера,
-    она не входит в контейнер,
-    т.к выходит за его границы-->
-    <!--контейнер для хэдера-->
+<header style="background-image: url(img/jpg/backgroundHeader.jpg)">
     <div class="container">
-        <div class="banner">
-
-        </div>
-        <!--т.к у нас своеобразный хэдер,
-        то я решил контейнер хэдера разбить
-         на 3 части - вот верхняя-->
         <div class="headerTop">
             <!--ЛОГОТИП-->
             <div class="logo">
@@ -82,10 +72,10 @@
         </div>
     </div>
 </header>
-<div class="container">
-    <div class="content">
-        <!--БЛОК С УСЛУГАМИ (КАРТОЧКАМИ)-->
-        <div class="cards">
+<div class="content">
+    <!--БЛОК С УСЛУГАМИ (КАРТОЧКАМИ)-->
+    <div class="cards">
+        <div class="container">
             <div class="tariffCard1">
                 <div class="testCard">
                     <img src="img/png/icon1.png" alt="icon">
@@ -164,191 +154,198 @@
             </div>
         </div>
     </div>
-    <!--КАЛЬКУЛЯТОР ПРИБЫЛИ-->
+</div>
+<!--КАЛЬКУЛЯТОР ПРИБЫЛИ-->
+<div class="calc" style="background-image: url(img/jpg/calcBg.jpg)">
     <div class="container">
-        <div class="calc">
-            <div class="myTarifs">
-                <span>калькулятор прибыли</span>
-                <span>рассичитайте свою прибыль</span>
-                <div class="chooseLine">
-                    <span>Выберите линию:</span>
-                    <select name="chooseLine" id="chooseLine">
-                        <option value="line">Линия прибыли</option>
-                        <option value="line">Линия стабильности</option>
-                        <option value="line">Линия бесконечности</option>
-                    </select>
-                </div>
-                <div class="chooseBot">
-                    <span>Выберите бота:</span>
-                    <select name="chooseBot" id="chooseBot">
-                        <option value="testBot">TEST 1,0% в сутки</option>
-                        <option value="powerBot">POWER 1,5% в сутки</option>
-                        <option value="ultimatunBot">ULTIMATUM 2,0% в сутки</option>
-                        <option value="ditBot">BIT 1,0% в сутки</option>
-                    </select>
-                </div>
+        <div class="myTarifs">
+            <span>калькулятор прибыли</span>
+            <span>рассичитайте свою прибыль</span>
+            <div class="chooseLine">
+                <span>Выберите линию:</span>
+                <select name="chooseLine" id="chooseLine">
+                    <option value="line">Линия прибыли</option>
+                    <option value="line">Линия стабильности</option>
+                    <option value="line">Линия бесконечности</option>
+                </select>
             </div>
-            <div class="calcDep">
-                <span>Введите сумму:</span>
-                <div></div>
-                <div></div>
+            <div class="chooseBot">
+                <span>Выберите бота:</span>
+                <select name="chooseBot" id="chooseBot">
+                    <option value="testBot">TEST 1,0% в сутки</option>
+                    <option value="powerBot">POWER 1,5% в сутки</option>
+                    <option value="ultimatunBot">ULTIMATUM 2,0% в сутки</option>
+                    <option value="ditBot">BIT 1,0% в сутки</option>
+                </select>
             </div>
-            <div class="resOut">
-                <span>Ваша прибыль:</span>
-                <div></div>
-            </div>
-            <a href="#" class="connect"><span class="icon-paper-plane">Подключится</span></a>
         </div>
-        <!--Информация о BBI-->
-        <div class="about">
-            <span>BUSINESS BOT INCUBATOR</span>
-            <span>МИР ИННОВАЦИОННЫХ ТЕХНОЛОГИЙ!</span>
-            <div class="aboutLeft">
-                <p>Инновационные идеи и технологии давно и прочно вошли в жизнь пользователей Интернет. <span>Business Bot
+        <div class="calcDep">
+            <span>Введите сумму:</span>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="resOut">
+            <span>Ваша прибыль:</span>
+            <div></div>
+        </div>
+        <a href="#" class="connect"><span class="icon-paper-plane">Подключится</span></a>
+    </div>
+</div>
+<!--Информация о BBI-->
+<div class="about">
+    <div class="container">
+        <span>BUSINESS BOT INCUBATOR</span>
+        <span>МИР ИННОВАЦИОННЫХ ТЕХНОЛОГИЙ!</span>
+        <div class="aboutLeft">
+            <p>Инновационные идеи и технологии давно и прочно вошли в жизнь пользователей Интернет. <span>Business Bot
                     Incubator (BBI)</span> был создан в соответствии с современными тенденциями. Это новый этап в мире
-                    инвестиций. Каждый сомневающийся в своих решениях человек может сделать неверный выбор. Но что, если
-                    вместо человека будет принимать решения робот, работающий в рамках точного алгоритма?
-                    Эта система облегчит жизнь многих инвесторов. </p>
-            </div>
-            <div class="aboutRight">
-                <p>Эта система облегчит жизнь многих инвесторов. Программные боты будут обеспечивать абсолютную
-                    безопасность проведения платежей и полную защиту средств, размещенных на балансе Вашего аккаунта!
-                    <span>Основная задача наших разработчиков – дальнейшее развитие BBI-ботов.</span> Только взаимный
-                    успех принесет
-                    новое всеобщее развитие и процветание.</p>
-            </div>
-            <div class="license">
-                <img src="img/jpg/license.jpg" alt="license">
-            </div>
+                инвестиций. Каждый сомневающийся в своих решениях человек может сделать неверный выбор. Но что, если
+                вместо человека будет принимать решения робот, работающий в рамках точного алгоритма?
+                Эта система облегчит жизнь многих инвесторов. </p>
         </div>
-        <!--Приемущества BBI-->
-        <div class="advantages">
-            <img src="" alt="background">
-            <div class="advTitle">
-                <span>преимущества компании</span>
-                <span>почему выбирают нас?</span>
-                <span>Инвестиции в BBI выгодно отличаются от интернет-инвестиций в другие программы. </span>
-                <span>Здесь о Ваших средствах заботятся и грамотно ими управляют уникальные BBI-боты. Каждый BBI-бот оснащен бонусным апгрейдом, который способствует увеличению получаемой прибыли!</span>
-            </div>
-            <!--блоки с картинками приемуществ-->
-            <div class="advIcon">
-                <span>УНИКАЛЬНЫЕ ИНВЕСТИЦИОННЫЕ БОТЫ</span>
-                <img src="img/png/advIcon1.png" alt="icon">
-            </div>
-            <div class="advIcon">
-                <span>ПАРТНЕРСКАЯ ПРОГРАММА ДО 10%</span>
-                <img src="img/png/advIcon2.png" alt="icon">
-            </div>
-            <div class="advIcon">
-                <span>НАЧИСЛЕНИЯ КАЖДЫЕ 24 ЧАСА</span>
-                <img src="img/png/advIcon3.png" alt="icon">
-            </div>
-            <div class="advIcon">
-                <span>КВАЛИФИЦИРОВАННАЯ ПОДДЕРЖКА</span>
-                <img src="img/png/advIcon4.png" alt="icon">
-            </div>
-            <div class="advIcon">
-                <span>ВЫВОД СРЕДСТВ В РЕЖИМЕ ИНСТАНТ</span>
-                <img src="img/png/advIcon5.png" alt="icon">
-            </div>
-            <div class="advIcon">
-                <span>ВОЗМОЖНОСТЬ УВЕЛИЧЕНИЯ ПРИБЫЛИ</span>
-                <img src="img/png/advIcon6.png" alt="icon">
-            </div>
+        <div class="aboutRight">
+            <p>Эта система облегчит жизнь многих инвесторов. Программные боты будут обеспечивать абсолютную
+                безопасность проведения платежей и полную защиту средств, размещенных на балансе Вашего аккаунта!
+                <span>Основная задача наших разработчиков – дальнейшее развитие BBI-ботов.</span> Только взаимный
+                успех принесет
+                новое всеобщее развитие и процветание.</p>
         </div>
-    </div>
-    <!--Партнерская программа-->
-    <div class="container">
-        <div class="program">
-            <div class="plan">
-                <span>Партнерская программа</span>
-                <div class="percent">
-                    <span>Размер реферальных начислений на начальном этапе составляет </span>
-                    <span class="percentNumber">5%</span>
-                    <span>от вклада вашего партнера.</span>
-                </div>
-                <div class="percent">
-                    <span>Для тех, кто сделает оборот структуры свыше 500$, BBI-боты сгенерируют повышенный процент и увеличат размер начислений на</span>
-                    <span class="percentNumber">1%</span>
-                </div>
-                <div class="percent">
-                    <span>Каждые последующие 500$ будут увеличивать Ваш партнерский процент начислений на 1%, максимальная отметка достигает </span>
-                    <span class="percentNumber">10%</span>
-                </div>
-                <a href="#" class="connect icon-paper-plane"><span>Подключится</span></a>
-            </div>
-        </div>
-    </div>
-    <!--НОВОСТИ-->
-    <div class="container">
-        <div class="news">
-            <span>новости компании</span>
-            <span>последние события</span>
-            <div class="articles">
-                <div class="articlesBanner">
-                    <img src="" alt="background">
-                    <span>Линия Бесконечности. Разделение депозитов.</span>
-                    <p>
-                        В процессе изучения новых программных кодов, Ботами была освоена новая ветка депозитов!...
-                        <a href="#">подробнее</a>
-                    </p>
-                    <span>Ваш бот BBI</span>
-                </div>
-                <!--ТРУДНОСТИ С ЭТИМ БЛОКОМ-->
-                <div>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <p><a href="#"></a></p>
-                    </div>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <p><a href="#"></a></p>
-                    </div>
-                    <div>
-                        <span></span>
-                        <span></span>
-                        <p><a href="#"></a></p>
-                    </div>
-                </div>
-                <a href="#"></a>
-            </div>
-        </div>
-        <div class="container">
-            <div class="partners" style="background-image: url(img/jpg/background2.jpg)">
-                <ul class="payments">
-                    <li>
-                        <a href="#">
-                            <img src="img/png/partner1.png" alt="icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/png/partner2.png" alt="icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/png/partner3.png" alt="icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/png/partner4.png" alt="icon">
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <div class="license">
+            <img src="img/jpg/license.jpg" alt="license">
         </div>
     </div>
 </div>
-<footer>
+<!--Приемущества BBI-->
+<div class="advantages">
+    <div class="continer">
+        <img src="" alt="background">
+        <div class="advTitle">
+            <span>преимущества компании</span>
+            <span>почему выбирают нас?</span>
+            <span>Инвестиции в BBI выгодно отличаются от интернет-инвестиций в другие программы. </span>
+            <span>Здесь о Ваших средствах заботятся и грамотно ими управляют уникальные BBI-боты. Каждый BBI-бот оснащен бонусным апгрейдом, который способствует увеличению получаемой прибыли!</span>
+        </div>
+        <!--блоки с картинками приемуществ-->
+        <div class="advIcon">
+            <span>УНИКАЛЬНЫЕ ИНВЕСТИЦИОННЫЕ БОТЫ</span>
+            <img src="img/png/advIcon1.png" alt="icon">
+        </div>
+        <div class="advIcon">
+            <span>ПАРТНЕРСКАЯ ПРОГРАММА ДО 10%</span>
+            <img src="img/png/advIcon2.png" alt="icon">
+        </div>
+        <div class="advIcon">
+            <span>НАЧИСЛЕНИЯ КАЖДЫЕ 24 ЧАСА</span>
+            <img src="img/png/advIcon3.png" alt="icon">
+        </div>
+        <div class="advIcon">
+            <span>КВАЛИФИЦИРОВАННАЯ ПОДДЕРЖКА</span>
+            <img src="img/png/advIcon4.png" alt="icon">
+        </div>
+        <div class="advIcon">
+            <span>ВЫВОД СРЕДСТВ В РЕЖИМЕ ИНСТАНТ</span>
+            <img src="img/png/advIcon5.png" alt="icon">
+        </div>
+        <div class="advIcon">
+            <span>ВОЗМОЖНОСТЬ УВЕЛИЧЕНИЯ ПРИБЫЛИ</span>
+            <img src="img/png/advIcon6.png" alt="icon">
+        </div>
+    </div>
+</div>
+<!--Партнерская программа-->
+<div class="program" style="background-image: url(img/jpg/progBg.jpg)">
     <div class="container">
-        <!--Кнопка отдельно в контейнере-->
-        <a href="#" class="connect"><span class="icon-paper-plane">Подключится</span></a>
-        <!--футер разбиваю на 2 части-->
-        <div class="footerTop">
+        <div class="plan">
+            <span>Партнерская программа</span>
+            <div class="percent">
+                <span>Размер реферальных начислений на начальном этапе составляет </span>
+                <span class="percentNumber">5%</span>
+                <span>от вклада вашего партнера.</span>
+            </div>
+            <div class="percent">
+                <span>Для тех, кто сделает оборот структуры свыше 500$, BBI-боты сгенерируют повышенный процент и увеличат размер начислений на</span>
+                <span class="percentNumber">1%</span>
+            </div>
+            <div class="percent">
+                <span>Каждые последующие 500$ будут увеличивать Ваш партнерский процент начислений на 1%, максимальная отметка достигает </span>
+                <span class="percentNumber">10%</span>
+            </div>
+            <a href="#" class="connect icon-paper-plane"><span>Подключится</span></a>
+        </div>
+    </div>
+</div>
+<!--НОВОСТИ-->
+<div class="news">
+    <div class="container">
+        <span>новости компании</span>
+        <span>последние события</span>
+        <div class="articles">
+            <div class="articlesBanner">
+                <img src="" alt="background">
+                <span>Линия Бесконечности. Разделение депозитов.</span>
+                <p>
+                    В процессе изучения новых программных кодов, Ботами была освоена новая ветка депозитов!...
+                    <a href="#">подробнее</a>
+                </p>
+                <span>Ваш бот BBI</span>
+            </div>
+            <!--ТРУДНОСТИ С ЭТИМ БЛОКОМ-->
+            <div>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <p><a href="#"></a></p>
+                </div>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <p><a href="#"></a></p>
+                </div>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <p><a href="#"></a></p>
+                </div>
+            </div>
+            <a href="#"></a>
+        </div>
+    </div>
+</div>
+
+<div class="partners" style="background-image: url(img/jpg/background2.jpg)">
+    <div class="container">
+        <ul class="payments">
+            <li>
+                <a href="#">
+                    <img src="img/png/partner1.png" alt="icon">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/png/partner2.png" alt="icon">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/png/partner3.png" alt="icon">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/png/partner4.png" alt="icon">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<footer>
+    <!--Кнопка отдельно в контейнере-->
+    <a href="#" class="connect"><span class="icon-paper-plane">Подключится</span></a>
+    <!--футер разбиваю на 2 части-->
+    <div class="footerTop">
+        <div class="container">
             <div class="contactInfo">
                 <img src="img/png/logo2.png">
                 <div class="abbreviation">
@@ -386,8 +383,10 @@
                 <a href="#">telegram_bbi_chat_eng</a>
             </div>
         </div>
-        <!--вторая часть футера-->
-        <div class="footerBottom">
+    </div>
+    <!--вторая часть футера-->
+    <div class="footerBottom">
+        <div class="container">
             <ul>
                 <li><a href="#">ГЛАВНАЯ</a></li>
                 <li><a href="#">НОВОСТИ</a></li>
